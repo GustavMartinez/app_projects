@@ -1,5 +1,7 @@
-alert("Hola mundo")
+function seleccionarMascotaJugador(){
+    alert("Seleccionaste la mascota")
+}
 
-let botonMascotaJugador = document.getElementById('boton-mascota')
+let botonMascotaJugador = document.getElementById('boton-mascota') // Selecciona el elemento boton-mascota
 
-botonMascotaJugador.addEventListener('click')
+botonMascotaJugador.addEventListener('click', seleccionarMascotaJugador)
